@@ -1,0 +1,8 @@
+KUBELET_ARGS="--hostname-override=172.27.129.105\
+ --node-ip=172.27.129.105\
+ --register-node=false\
+ --runtime-cgroups=/systemd/system.slice \
+ --kubelet-cgroups=/systemd/system.slice \
+ --logtostderr=false\
+ --log-dir=/var/log/kubernetes\
+ --v=2"
